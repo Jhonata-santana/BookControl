@@ -1,0 +1,63 @@
+## Arquivo .gitignore para projetos .NET / Visual Studio
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build artefacts
+bin/
+obj/
+out/
+artifacts/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+packages/
+*.nupkg
+.nuget/
+
+# dotnet
+project.lock.json
+project.fragment.lock.json
+
+# Publish
+publish/
+wwwroot/
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+*.trx
+coverage/
+
+# Databases
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# IIS Express
+IISExpress/
+
+# User-specific / source control
+*.vspscc
+*.vssscc
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# OS generated files
+.DS_Store
+Thumbs.db
